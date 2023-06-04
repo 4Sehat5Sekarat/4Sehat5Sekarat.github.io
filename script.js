@@ -29,5 +29,4 @@
 			window.getSelection().addRange(range);
 			document.execCommand('copy');
 			window.getSelection().removeAllRanges();
-			alert('Hasil Disalin');
 		}
