@@ -1,166 +1,40 @@
-.theme-button {
-	padding: 10px;
-	background-color: #007bff;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	opacity: 30%;
+const calculateBtn = document.getElementById('calculate');
+const copyButton = document.getElementById('copy-button');
+const output = document.getElementById('output');
+const themeButton = document.getElementById('theme-button');
+
+calculateBtn.addEventListener('click', calculateValues);
+copyButton.addEventListener('click', copyResult);
+themeButton.addEventListener('click', changeTheme);
+
+function calculateValues() {
+	const firstSkillId = parseInt(document.getElementById('5w1h-first-skill-id').value, 10);
+	const secondSkillId = parseInt(document.getElementById('5w1h-second-skill-id').value, 10);
+	const firstSkillLvl = parseInt(document.getElementById('5w1h-first-skill-lvl').value, 10);
+	const secondSkillLvl = parseInt(document.getElementById('5w1h-second-skill-lvl').value, 10);
+	const talismanRarity = parseInt(document.getElementById('5w1h-talisman-rarity').value, 10);
+	const numberOfSlots = parseInt(document.getElementById('5w1h-number-of-slots').value, 10);
+
+	const xxxx = firstSkillId + secondSkillId * 128 + 16384 * numberOfSlots;
+	const yyyy = (firstSkillLvl + 30) * 16 + 1024 * (secondSkillLvl + 30) + talismanRarity - 1;
+
+	const xxxxHex = xxxx.toString(16).toUpperCase();
+	const yyyyHex = yyyy.toString(16).toUpperCase();
+
+	output.textContent = `_C0 Custom talisman\n_L 0x2174FE14 0x${yyyyHex}6501\n_L 0x2174FE18 0x0000${xxxxHex}`;
 }
 
-a {
-	text-decoration: none;
-	color: #00FFE6;
+function copyResult() {
+	const range = document.createRange();
+	range.selectNode(output);
+	window.getSelection().removeAllRanges();
+	window.getSelection().addRange(range);
+	document.execCommand('copy');
+	window.getSelection().removeAllRanges();
 }
 
-body {
-	padding: 5px;
-	font-family: Arial, sans-serif;
-	text-align: center;
-	background-color: #1A1A1A;
-	color: #9400D3;
-}
-
-h1 {
-	margin-top: 50px;
-	color: #9400D3;
-}
-
-#calculator-container {
-	width: 400px;
-	margin: 0 auto;
-	padding: 0;
-	border: 1px solid #9400D3;
-	background-color: #1A1A1A;
-}
-
-#input-container {
-	margin-top: 10px;
-}
-
-#input-container input {
-	margin: 5px 0;
-	background-color: #1A1A1A;
-	color: #9400D3;
-	border: 1px solid #9400D3;
-	border-radius: 3px;
-	padding: 5px;
-}
-
-#calculate {
-	margin-top: 5px;
-	padding: 5px 10px;
-	background-color: #1A1A1A;
-	color: #9400D3;
-	border: 1px solid #9400D3;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
-#output {
-	margin: 10px 10px 10px 10px;
-	padding: 10px;
-	border: 1px solid #9400D3;
-	background-color: #1A1A1A;
-	height: 50px;
-	white-space: pre-wrap;
-	text-align: left;
-	color: white;
-	font-family: Courier New;
-}
-
-#copy-button {
-	margin: 10px 0 10px 0;
-	padding: 5px 10px;
-	background-color: #1A1A1A;
-	color: #9400D3;
-	border: 1px solid #9400D3;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
-select {
-	background-color: #1A1A1A;
-	color: #9400D3;
-	border: 1px solid #9400D3;
-	border-radius: 3px;
-	padding: 5px;
-}
-
-option {
-	background-color: #1A1A1A;
-	color: #9400D3;
-}
-
-body.light {
-	padding: 5px;
-	font-family: Arial, sans-serif;
-	text-align: center;
-	background-color: #F0F5F9;
-	color: #0047AB;
-}
-
-body.light a {
-	text-decoration: none;
-	color: #00FFE6;
-}
-
-body.light h1 {
-	margin-top: 50px;
-	color: #0047AB;
-}
-
-body.light #calculator-container {
-	border: 1px solid #0047AB;
-	background-color: #F0F5F9;
-}
-
-body.light #input-container input {
-	margin: 5px 0;
-	background-color: #F0F5F9;
-	color: #0047AB;
-	border: 1px solid #0047AB;
-}
-
-body.light #calculate {
-	margin-top: 5px;
-	padding: 5px 10px;
-	background-color: #F0F5F9;
-	color: #0047AB;
-	border: 1px solid #0047AB;
-}
-
-body.light #output {
-	margin: 10px 10px 10px 10px;
-	padding: 10px;
-	border: 1px solid #0047AB;
-	background-color: #F0F5F9;
-	height: 50px;
-	white-space: pre-wrap;
-	text-align: left;
-	color: black;
-	font-family: Courier New;
-}
-
-body.light #copy-button {
-	margin: 10px 0 10px 0;
-	padding: 5px 10px;
-	background-color: #F0F5F9;
-	color: #0047AB;
-	border: 1px solid #0047AB;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
-body.light select {
-	background-color: #F0F5F9;
-	color: #0047AB;
-	border: 1px solid #0047AB;
-	border-radius: 3px;
-	padding: 5px;
-}
-
-body.light option {
-	background-color: #F0F5F9;
-	color: #0047AB;
+function changeTheme() {
+	var body = document.body;
+	body.classList.toggle("light");
+	body.classList.toggle("dark");
 }
