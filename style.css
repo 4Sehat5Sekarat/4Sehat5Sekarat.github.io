@@ -1,0 +1,82 @@
+a{
+	text-decoration: none;
+	color: #00FFE6;
+}
+	
+body {
+  padding: 5px 5px 5px 5px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1A1A1A;
+  color: #9400D3;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #9400D3;
+}
+
+#calculator-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #9400D3;
+  background-color: #1A1A1A;
+}
+
+#input-container {
+  margin-top: 10px;
+}
+
+#input-container input {
+  margin: 5px 0 5px 0;
+  background-color: #1A1A1A;
+  color: #9400D3;
+  border: 1px solid #9400D3;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#calculate {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #1A1A1A;
+  color: #9400D3;
+  border: 1px solid #9400D3;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #9400D3;
+  background-color: #1A1A1A;
+  height: 50px;
+  white-space: pre-wrap;
+  text-align: left;
+  color: #9400D3;
+}
+
+#copy-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #1A1A1A;
+  color: #9400D3;
+  border: 1px solid #9400D3;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+select {
+  background-color: #1A1A1A;
+  color: #9400D3;
+  border: 1px solid #9400D3;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+option {
+  background-color: #1A1A1A;
+  color: #9400D3;
+}
