@@ -1,260 +1,297 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="refresh" content="300" />
-	<meta name="keywords" content="Test" />
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="author" content="5W1H">
-	<title>MHP3RD Custom Talisman by 5W1H</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="300" />
+    <meta name="keywords" content="Test" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="5W1H">
+    <title>MHP3RD Custom Talisman by 5W1H</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<div id="calculator-container">
-		<h1>Custom Talisman</h1>
-		<div id="input-container">
-			<select id="5w1h-first-skill-id">
-				<option value="">Opsi skill 1</option>
-				<option value="0">No Skill</option>
-				<option value="1">Torso Up</option>
-				<option value="2">Poison</option>
-				<option value="3">Paralysis</option>
-				<option value="4">Sleep</option>
-				<option value="5">Stun</option>
-				<option value="6">Mud/Snow</option>
-				<option value="7">Sense</option>
-				<option value="8">Health</option>
-				<option value="9">Rec Speed</option>
-				<option value="10">Sharpness</option>
-				<option value="11">Artisan</option>
-				<option value="12">Fencing</option>
-				<option value="13">Expert</option>
-				<option value="14">Sharpener</option>
-				<option value="15">Guard</option>
-				<option value="16">Guard Up</option>
-				<option value="17">Auto-Guard</option>
-				<option value="18">Reload Spd</option>
-				<option value="19">Recoil</option>
-				<option value="20">NormalS Up</option>
-				<option value="21">PierceS Up</option>
-				<option value="22">PelletS Up</option>
-				<option value="23">NormalSAdd</option>
-				<option value="24">PierceSAdd</option>
-				<option value="25">PelletSAdd</option>
-				<option value="26">Crag S Add</option>
-				<option value="27">ClustS Add</option>
-				<option value="28">Status</option>
-				<option value="29">Elemental</option>
-				<option value="30">BombStrUp</option>
-				<option value="31">Hunger</option>
-				<option value="32">Gluttony</option>
-				<option value="33">Attack</option>
-				<option value="34">Defense</option>
-				<option value="35">Protection</option>
-				<option value="36">HearProtct</option>
-				<option value="37">Anti-Theft</option>
-				<option value="38">Wide Area</option>
-				<option value="39">Backpackng</option>
-				<option value="40">Fire Res</option>
-				<option value="41">Water Res</option>
-				<option value="42">ThunderRes</option>
-				<option value="43">Ice Res</option>
-				<option value="44">Dragon Res</option>
-				<option value="45">Heat Res</option>
-				<option value="46">Cold Res</option>
-				<option value="47">WindPress</option>
-				<option value="48">Gathering</option>
-				<option value="49">HiSpdGathr</option>
-				<option value="50">Whim</option>
-				<option value="51">Fate</option>
-				<option value="52">Psychic</option>
-				<option value="53">Rec Level</option>
-				<option value="54">Combo Rate</option>
-				<option value="55">Combo Plus (Shot Mix)</option>
-				<option value="56">Evasion</option>
-				<option value="57">Potential</option>
-				<option value="58">LastingPwr</option>
-				<option value="59">Stamina</option>
-				<option value="60">Loading</option>
-				<option value="61">Precision</option>
-				<option value="62">Eating</option>
-				<option value="63">Carving</option>
-				<option value="64">Tremor Res (Quake Res)</option>
-				<option value="65">Evade Dist</option>
-				<option value="66">Crit Draw</option>
-				<option value="67">SpeedSetup</option>
-				<option value="68">Constitutn</option>
-				<option value="69">Tranquilzr (Rewards)</option>
-				<option value="70">Perception</option>
-				<option value="71">FastCharge</option>
-				<option value="72">PunishDraw</option>
-				<option value="73">Blight Res</option>
-				<option value="74">Survivor (Adversity)</option>
-				<option value="75">Rapid Fire</option>
-				<option value="76">Dungmaster</option>
-				<option value="77">Antiseptic</option>
-				<option value="78">PoisonCAdd</option>
-				<option value="79">ParalyCAdd</option>
-				<option value="80">SleepCAdd</option>
-				<option value="81">PowerCAdd</option>
-				<option value="82">ClsRngCAdd</option>
-				<option value="83">Horn</option>
-				<option value="84">Gunnery</option>
-				<option value="85">Determination (Awaken)</option>
-				<option value="86">Huntsman</option>
-				<option value="87">Anti Defense DOWN (Fortitude)</option>
-				<option value="88">Fire Attack</option>
-				<option value="89">Water Attack</option>
-				<option value="90">Thunder Attack</option>
-				<option value="91">Ice Attack</option>
-				<option value="92">Dragon Attack</option>
-				<option value="93">Cutter S Up</option>
-				<option value="94">FatigueCAdd</option>
-				<option value="95">Severe Blow (Debilitate)</option>
-				<option value="96">Heavy Blow (Slam)</option>
-				<option value="97">KO</option>
-				<option value="98">Fatigue Attack</option>
-				<option value="99">Sheathe</option>
-				<option value="100">Willpower Recovery</option>
-			</select>
+    <div id="calculator-container">
+        <h1>Custom Talisman</h1>
+        <div id="input-container">
+            <select id="5w1h-first-skill-id">
+                <option value="0">Opsi skill 1</option>
+                <option value="0">No Skill</option>
+                <option value="1">Torso Up</option>
+                <option value="2">Poison</option>
+                <option value="3">Paralysis</option>
+                <option value="4">Sleep</option>
+                <option value="5">Stun</option>
+                <option value="6">Mud/Snow</option>
+                <option value="7">Sense</option>
+                <option value="8">Health</option>
+                <option value="9">Rec Speed</option>
+                <option value="10">Sharpness</option>
+                <option value="11">Artisan</option>
+                <option value="12">Fencing</option>
+                <option value="13">Expert</option>
+                <option value="14">Sharpener</option>
+                <option value="15">Guard</option>
+                <option value="16">Guard Up</option>
+                <option value="17">Auto-Guard</option>
+                <option value="18">Reload Spd</option>
+                <option value="19">Recoil</option>
+                <option value="20">NormalS Up</option>
+                <option value="21">PierceS Up</option>
+                <option value="22">PelletS Up</option>
+                <option value="23">NormalSAdd</option>
+                <option value="24">PierceSAdd</option>
+                <option value="25">PelletSAdd</option>
+                <option value="26">Crag S Add</option>
+                <option value="27">ClustS Add</option>
+                <option value="28">Status</option>
+                <option value="29">Elemental</option>
+                <option value="30">BombStrUp</option>
+                <option value="31">Hunger</option>
+                <option value="32">Gluttony</option>
+                <option value="33">Attack</option>
+                <option value="34">Defense</option>
+                <option value="35">Protection</option>
+                <option value="36">HearProtct</option>
+                <option value="37">Anti-Theft</option>
+                <option value="38">Wide Area</option>
+                <option value="39">Backpackng</option>
+                <option value="40">Fire Res</option>
+                <option value="41">Water Res</option>
+                <option value="42">ThunderRes</option>
+                <option value="43">Ice Res</option>
+                <option value="44">Dragon Res</option>
+                <option value="45">Heat Res</option>
+                <option value="46">Cold Res</option>
+                <option value="47">WindPress</option>
+                <option value="48">Gathering</option>
+                <option value="49">HiSpdGathr</option>
+                <option value="50">Whim</option>
+                <option value="51">Fate</option>
+                <option value="52">Psychic</option>
+                <option value="53">Rec Level</option>
+                <option value="54">Combo Rate</option>
+                <option value="55">Combo Plus (Shot Mix)</option>
+                <option value="56">Evasion</option>
+                <option value="57">Potential</option>
+                <option value="58">LastingPwr</option>
+                <option value="59">Stamina</option>
+                <option value="60">Loading</option>
+                <option value="61">Precision</option>
+                <option value="62">Eating</option>
+                <option value="63">Carving</option>
+                <option value="64">Tremor Res (Quake Res)</option>
+                <option value="65">Evade Dist</option>
+                <option value="66">Crit Draw</option>
+                <option value="67">SpeedSetup</option>
+                <option value="68">Constitutn</option>
+                <option value="69">Tranquilzr (Rewards)</option>
+                <option value="70">Perception</option>
+                <option value="71">FastCharge</option>
+                <option value="72">PunishDraw</option>
+                <option value="73">Blight Res</option>
+                <option value="74">Survivor (Adversity)</option>
+                <option value="75">Rapid Fire</option>
+                <option value="76">Dungmaster</option>
+                <option value="77">Antiseptic</option>
+                <option value="78">PoisonCAdd</option>
+                <option value="79">ParalyCAdd</option>
+                <option value="80">SleepCAdd</option>
+                <option value="81">PowerCAdd</option>
+                <option value="82">ClsRngCAdd</option>
+                <option value="83">Horn</option>
+                <option value="84">Gunnery</option>
+                <option value="85">Determination (Awaken)</option>
+                <option value="86">Huntsman</option>
+                <option value="87">Anti Defense DOWN (Fortitude)</option>
+                <option value="88">Fire Attack</option>
+                <option value="89">Water Attack</option>
+                <option value="90">Thunder Attack</option>
+                <option value="91">Ice Attack</option>
+                <option value="92">Dragon Attack</option>
+                <option value="93">Cutter S Up</option>
+                <option value="94">FatigueCAdd</option>
+                <option value="95">Severe Blow (Debilitate)</option>
+                <option value="96">Heavy Blow (Slam)</option>
+                <option value="97">KO</option>
+                <option value="98">Fatigue Attack</option>
+                <option value="99">Sheathe</option>
+                <option value="100">Willpower Recovery</option>
+            </select>
 
-			<!-- Hasil bantuan GPT oleh 5W1H -->
-			<select id="5w1h-second-skill-id">
-				<option value="">Opsi Skill 2</option>
-				<option value="0">No Skill</option>
-				<option value="1">Torso Up</option>
-				<option value="2">Poison</option>
-				<option value="3">Paralysis</option>
-				<option value="4">Sleep</option>
-				<option value="5">Stun</option>
-				<option value="6">Mud/Snow</option>
-				<option value="7">Sense</option>
-				<option value="8">Health</option>
-				<option value="9">Rec Speed</option>
-				<option value="10">Sharpness</option>
-				<option value="11">Artisan</option>
-				<option value="12">Fencing</option>
-				<option value="13">Expert</option>
-				<option value="14">Sharpener</option>
-				<option value="15">Guard</option>
-				<option value="16">Guard Up</option>
-				<option value="17">Auto-Guard</option>
-				<option value="18">Reload Spd</option>
-				<option value="19">Recoil</option>
-				<option value="20">NormalS Up</option>
-				<option value="21">PierceS Up</option>
-				<option value="22">PelletS Up</option>
-				<option value="23">NormalSAdd</option>
-				<option value="24">PierceSAdd</option>
-				<option value="25">PelletSAdd</option>
-				<option value="26">Crag S Add</option>
-				<option value="27">ClustS Add</option>
-				<option value="28">Status</option>
-				<option value="29">Elemental</option>
-				<option value="30">BombStrUp</option>
-				<option value="31">Hunger</option>
-				<option value="32">Gluttony</option>
-				<option value="33">Attack</option>
-				<option value="34">Defense</option>
-				<option value="35">Protection</option>
-				<option value="36">HearProtct</option>
-				<option value="37">Anti-Theft</option>
-				<option value="38">Wide Area</option>
-				<option value="39">Backpackng</option>
-				<option value="40">Fire Res</option>
-				<option value="41">Water Res</option>
-				<option value="42">ThunderRes</option>
-				<option value="43">Ice Res</option>
-				<option value="44">Dragon Res</option>
-				<option value="45">Heat Res</option>
-				<option value="46">Cold Res</option>
-				<option value="47">WindPress</option>
-				<option value="48">Gathering</option>
-				<option value="49">HiSpdGathr</option>
-				<option value="50">Whim</option>
-				<option value="51">Fate</option>
-				<option value="52">Psychic</option>
-				<option value="53">Rec Level</option>
-				<option value="54">Combo Rate</option>
-				<option value="55">Combo Plus (Shot Mix)</option>
-				<option value="56">Evasion</option>
-				<option value="57">Potential</option>
-				<option value="58">LastingPwr</option>
-				<option value="59">Stamina</option>
-				<option value="60">Loading</option>
-				<option value="61">Precision</option>
-				<option value="62">Eating</option>
-				<option value="63">Carving</option>
-				<option value="64">Tremor Res (Quake Res)</option>
-				<option value="65">Evade Dist</option>
-				<option value="66">Crit Draw</option>
-				<option value="67">SpeedSetup</option>
-				<option value="68">Constitutn</option>
-				<option value="69">Tranquilzr (Rewards)</option>
-				<option value="70">Perception</option>
-				<option value="71">FastCharge</option>
-				<option value="72">PunishDraw</option>
-				<option value="73">Blight Res</option>
-				<option value="74">Survivor (Adversity)</option>
-				<option value="75">Rapid Fire</option>
-				<option value="76">Dungmaster</option>
-				<option value="77">Antiseptic</option>
-				<option value="78">PoisonCAdd</option>
-				<option value="79">ParalyCAdd</option>
-				<option value="80">SleepCAdd</option>
-				<option value="81">PowerCAdd</option>
-				<option value="82">ClsRngCAdd</option>
-				<option value="83">Horn</option>
-				<option value="84">Gunnery</option>
-				<option value="85">Determination (Awaken)</option>
-				<option value="86">Huntsman</option>
-				<option value="87">Anti Defense DOWN (Fortitude)</option>
-				<option value="88">Fire Attack</option>
-				<option value="89">Water Attack</option>
-				<option value="90">Thunder Attack</option>
-				<option value="91">Ice Attack</option>
-				<option value="92">Dragon Attack</option>
-				<option value="93">Cutter S Up</option>
-				<option value="94">FatigueCAdd</option>
-				<option value="95">Severe Blow (Debilitate)</option>
-				<option value="96">Heavy Blow (Slam)</option>
-				<option value="97">KO</option>
-				<option value="98">Fatigue Attack</option>
-				<option value="99">Sheathe</option>
-				<option value="100">Willpower Recovery</option>
-			</select>
+            <select id="5w1h-second-skill-id">
+                <option value="0">Opsi Skill 2</option>
+                <option value="0">No Skill</option>
+                <option value="1">Torso Up</option>
+                <option value="2">Poison</option>
+                <option value="3">Paralysis</option>
+                <option value="4">Sleep</option>
+                <option value="5">Stun</option>
+                <option value="6">Mud/Snow</option>
+                <option value="7">Sense</option>
+                <option value="8">Health</option>
+                <option value="9">Rec Speed</option>
+                <option value="10">Sharpness</option>
+                <option value="11">Artisan</option>
+                <option value="12">Fencing</option>
+                <option value="13">Expert</option>
+                <option value="14">Sharpener</option>
+                <option value="15">Guard</option>
+                <option value="16">Guard Up</option>
+                <option value="17">Auto-Guard</option>
+                <option value="18">Reload Spd</option>
+                <option value="19">Recoil</option>
+                <option value="20">NormalS Up</option>
+                <option value="21">PierceS Up</option>
+                <option value="22">PelletS Up</option>
+                <option value="23">NormalSAdd</option>
+                <option value="24">PierceSAdd</option>
+                <option value="25">PelletSAdd</option>
+                <option value="26">Crag S Add</option>
+                <option value="27">ClustS Add</option>
+                <option value="28">Status</option>
+                <option value="29">Elemental</option>
+                <option value="30">BombStrUp</option>
+                <option value="31">Hunger</option>
+                <option value="32">Gluttony</option>
+                <option value="33">Attack</option>
+                <option value="34">Defense</option>
+                <option value="35">Protection</option>
+                <option value="36">HearProtct</option>
+                <option value="37">Anti-Theft</option>
+                <option value="38">Wide Area</option>
+                <option value="39">Backpackng</option>
+                <option value="40">Fire Res</option>
+                <option value="41">Water Res</option>
+                <option value="42">ThunderRes</option>
+                <option value="43">Ice Res</option>
+                <option value="44">Dragon Res</option>
+                <option value="45">Heat Res</option>
+                <option value="46">Cold Res</option>
+                <option value="47">WindPress</option>
+                <option value="48">Gathering</option>
+                <option value="49">HiSpdGathr</option>
+                <option value="50">Whim</option>
+                <option value="51">Fate</option>
+                <option value="52">Psychic</option>
+                <option value="53">Rec Level</option>
+                <option value="54">Combo Rate</option>
+                <option value="55">Combo Plus (Shot Mix)</option>
+                <option value="56">Evasion</option>
+                <option value="57">Potential</option>
+                <option value="58">LastingPwr</option>
+                <option value="59">Stamina</option>
+                <option value="60">Loading</option>
+                <option value="61">Precision</option>
+                <option value="62">Eating</option>
+                <option value="63">Carving</option>
+                <option value="64">Tremor Res (Quake Res)</option>
+                <option value="65">Evade Dist</option>
+                <option value="66">Crit Draw</option>
+                <option value="67">SpeedSetup</option>
+                <option value="68">Constitutn</option>
+                <option value="69">Tranquilzr (Rewards)</option>
+                <option value="70">Perception</option>
+                <option value="71">FastCharge</option>
+                <option value="72">PunishDraw</option>
+                <option value="73">Blight Res</option>
+                <option value="74">Survivor (Adversity)</option>
+                <option value="75">Rapid Fire</option>
+                <option value="76">Dungmaster</option>
+                <option value="77">Antiseptic</option>
+                <option value="78">PoisonCAdd</option>
+                <option value="79">ParalyCAdd</option>
+                <option value="80">SleepCAdd</option>
+                <option value="81">PowerCAdd</option>
+                <option value="82">ClsRngCAdd</option>
+                <option value="83">Horn</option>
+                <option value="84">Gunnery</option>
+                <option value="85">Determination (Awaken)</option>
+                <option value="86">Huntsman</option>
+                <option value="87">Anti Defense DOWN (Fortitude)</option>
+                <option value="88">Fire Attack</option>
+                <option value="89">Water Attack</option>
+                <option value="90">Thunder Attack</option>
+                <option value="91">Ice Attack</option>
+                <option value="92">Dragon Attack</option>
+                <option value="93">Cutter S Up</option>
+                <option value="94">FatigueCAdd</option>
+                <option value="95">Severe Blow (Debilitate)</option>
+                <option value="96">Heavy Blow (Slam)</option>
+                <option value="97">KO</option>
+                <option value="98">Fatigue Attack</option>
+                <option value="99">Sheathe</option>
+                <option value="100">Willpower Recovery</option>
+            </select> <br />
 
-			<input type="number" id="5w1h-first-skill-lvl" placeholder="Level Skill 1" />
-			<input type="number" id="5w1h-second-skill-lvl" placeholder="Level Skill 2" />
+            <input type="number" id="5w1h-first-skill-lvl" placeholder="Level Skill 1" />
+            <input type="number" id="5w1h-second-skill-lvl" placeholder="Level Skill 2" /> <br />
 
-			<select id="5w1h-talisman-rarity">
-				<option value="1">Pawn Talisman [RARE 1]</option>
-				<option value="2">Bishop Talisman [RARE 2]</option>
-				<option value="3">Knight Talisman [RARE 3]</option>
-				<option value="4">Rook Talisman [RARE 4]</option>
-				<option value="5">Queen Talisman [RARE 5]</option>
-				<option value="6">King Talisman [RARE 6]</option>
-				<option value="7">Dragon Talisman [RARE 7]</option>
-			</select>
-			<select id="5w1h-number-of-slots">
-				<option value="0">Number of slots 0</option>
-				<option value="1">Number of slots 1</option>
-				<option value="2">Number of slots 2</option>
-				<option value="3">Number of slots 3</option>
-			</select><br />
-			<button id="calculate">Konversi</button>
-		</div>
+            <select id="5w1h-talisman-rarity">
+                <option value="1" id="5w1h-talisman-rarity1">Pawn Talisman [RARE 1]</option>
+                <option value="2" id="5w1h-talisman-rarity2">Bishop Talisman [RARE 2]</option>
+                <option value="3" id="5w1h-talisman-rarity3">Knight Talisman [RARE 3]</option>
+                <option value="4" id="5w1h-talisman-rarity4">Rook Talisman [RARE 4]</option>
+                <option value="5" id="5w1h-talisman-rarity5">Queen Talisman [RARE 5]</option>
+                <option value="6" id="5w1h-talisman-rarity6">King Talisman [RARE 6]</option>
+                <option value="7" id="5w1h-talisman-rarity7">Dragon Talisman [RARE 7]</option>
+            </select>
+            <select id="5w1h-number-of-slots">
+                <option value="0">Number of slots 0</option>
+                <option value="1">Number of slots 1</option>
+                <option value="2">Number of slots 2</option>
+                <option value="3">Number of slots 3</option>
+            </select><br />
+            <select id="5w1h-box-slot">
+                <option value="1">Box Slot 1</option>
+                <option value="2">Box Slot 2</option>
+                <option value="3">Box Slot 3</option>
+                <option value="4">Box Slot 4</option>
+                <option value="5">Box Slot 5</option>
+                <option value="6">Box Slot 6</option>
+                <option value="7">Box Slot 7</option>
+                <option value="8">Box Slot 8</option>
+                <option value="9">Box Slot 9</option>
+                <option value="10">Box Slot 10</option>
+            </select>
 
-		<div id="output"></div>
+            <button id="calculate">Konversi</button>
 
-		<button id="copy-button">Copy</button>
-	</div>
-	
-		<div style="padding: 10px; text-align: left;">
-		<button class="theme-button" onclick="changeTheme()">Tema</button>
-	</div>
+        </div>
 
-	<script src="script.js"></script>
+        <div id="output"></div>
+
+        <button id="copy-button">Copy</button>
+    </div>
+
+    <div style="padding: 10px; text-align: left;">
+        <button class="theme-button" onclick="changeTheme()">Tema</button><br /><br />
+        <details><summary>
+            Info
+        </summary> <ol>
+            <li>Atur level skill secukupnya (set skill level as needed)</li>
+saya sarankan max 30 level per skill atau lebih jika hanya satu skill (I suggest a maximum of 30 levels per skill or more if only one skill)
+<li>Usahakan agar kodenya agar tidak melebihi 8char (Try to keep the code not longer than 8 characters)</li>
+<pre>
+Contoh / Example:
+
+_C0 Custom Dragon Talisman [RARE 7] [3 Slot]
+_L 0x2174FE80 0xA2866501
+_L 0x2174FE84 0x0000C411
+
+Jangan seperti ini / Do not be like this :
+
+_C0 Custom Dragon Talisman [RARE 7] [3 Slot]
+_L 0x2174FE80 0x10406650<span style="color: red;">1</span>
+_L 0x2174FE84 0x0000C411
+
+</pre>
+Meski beberapa code dapat kurang dari 8 char namun itu tetap bisa digunakan saya telah mencobanya sendiri ( Even though some code can be less than 8 chars, it can still be used, I have tried it
+Even though some code can be less than 8 chars, it can still be used, I have tried it  )
+    </ol>
+        </details>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
