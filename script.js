@@ -54,13 +54,22 @@ function copyResult() {
   document.execCommand('copy');
   window.getSelection().removeAllRanges();
 
-  Swal.fire({
-    position: 'top-right',
-    icon: 'success',
-    title: 'Copied to clipboard',
-    showConfirmButton: false,
-    timer: 2500
-  });
+  Toast = Swal.mixin({
+  toast: true,
+  position: 'top-end',
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  didOpen: (toast) => {
+    toast.addEventListener('mouseenter', Swal.stopTimer)
+    toast.addEventListener('mouseleave', Swal.resumeTimer)
+  }
+})
+
+Toast.fire({
+  icon: 'success',
+  title: 'Copy Success'
+})
 }
 
 function changeTheme() {
