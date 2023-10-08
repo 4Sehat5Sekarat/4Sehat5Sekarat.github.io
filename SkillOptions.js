@@ -383,11 +383,11 @@ const skillOptions = [{
     },
     {
         value: "95",
-        text: "Tenderizer"
+        text: "Severe Blow (Debilitate / Tenderizer)"
     },
     {
         value: "96",
-        text: "Heavy Blow (Slam)"
+        text: "Heavy Blow (Slam / Destroyer)"
     },
     {
         value: "97",
