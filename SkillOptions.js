@@ -343,7 +343,7 @@ const skillOptions = [{
     },
     {
         value: "85",
-        text: "Determination (Awaken)"
+        text: "Determination (Awaken / Gloves Off)"
     },
     {
         value: "86",
