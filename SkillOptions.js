@@ -279,7 +279,7 @@ const skillOptions = [{
     },
     {
         value: "69",
-        text: "Tranquilzr (Rewards)"
+        text: "Tranquilzer (Rewards)"
     },
     {
         value: "70",
@@ -383,7 +383,7 @@ const skillOptions = [{
     },
     {
         value: "95",
-        text: "Severe Blow (Debilitate / Tenderizer)"
+        text: "Weakness exploit (Debilitate / Tenderizer)"
     },
     {
         value: "96",
