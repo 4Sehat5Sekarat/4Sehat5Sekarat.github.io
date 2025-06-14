@@ -1,205 +1,188 @@
-.theme-button {
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    opacity: 30%;
-} 
+:root {
+  --dark-accent: red;
+  --dark-background: #1a1a1a;
+  --light-background: #f0f5f9;
+  --light-accent: #0045ff;
+  --dark-font-color: #ffffff;
+  --light-font-color: #1a1a1a;
+}
+
+#theme-button {
+  padding: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 30%;
+}
 
 a {
-    text-decoration: none;
-    color: #00FFE6;
+  text-decoration: none;
+  color: #00ffe6;
 }
 
 body {
-    padding: 5px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #1A1A1A;
-    color: #9400D3;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 50px;
-    color: #9400D3;
+  margin-top: 50px;
 }
 
 li {
-    padding: 10px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 #calculator-container {
-    width: 400px;
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid #9400D3;
-    background-color: #1A1A1A;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid;
 }
 
 #input-container {
-    margin-top: 10px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 #input-container input {
-    margin: 5px 0;
-    background-color: #1A1A1A;
-    color: #9400D3;
-    border: 1px solid #9400D3;
-    border-radius: 3px;
-    padding: 5px;
+  margin: 5px 0;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 5px;
 }
 
 #calculate {
-    margin-top: 5px;
-    padding: 5px 10px;
-    background-color: #1A1A1A;
-    color: #9400D3;
-    border: 1px solid #9400D3;
-    border-radius: 3px;
-    cursor: pointer;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 #output {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #9400D3;
-    background-color: #1A1A1A;
-    height: 50px; 
-    max-width: 100%;
-    overflow-x: auto;
-    overflow-y: auto;
-    white-space: pre-wrap;
-    text-align: left;
-    color: white;
-    font-family: Courier New;
+  margin: 3%;
+  padding: 10px;
+  border: 1px solid;
+  height: 50px;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  text-align: left;
+  font-family: Courier New;
 }
 
 #copy-button {
-    margin: 10px 0 10px 0;
-    padding: 5px 10px;
-    background-color: #1A1A1A;
-    color: #9400D3;
-    border: 1px solid #9400D3;
-    border-radius: 3px;
-    cursor: pointer;
+  margin: 10px 0 10px 0;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.skillPicker {
+  width: 10em;
+  margin: 0.1rem;
 }
 
 select {
-    background-color: #1A1A1A;
-    color: #9400D3;
-    border: 1px solid #9400D3;
-    border-radius: 3px;
-    padding: 5px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 5px;
 }
 
-option {
-    background-color: #1A1A1A;
-    color: #9400D3;
+/*  Batas tema   */
+
+body.dark {
+  background-color: var(--dark-background);
+  color: var(--dark-accent);
 }
+
+body.dark h1 {
+  color: var(--dark-accent);
+}
+
+body.dark #calculator-container {
+  background-color: var(--dark-background);
+}
+
+body.dark #input-container input {
+  background-color: var(--dark-background);
+  color: var(--dark-accent);
+  border-color: var(--dark-accent);
+}
+
+body.dark #calculate {
+  background-color: var(--dark-background);
+  color: var(--dark-accent);
+  border-color: var(--dark-accent);
+}
+
+body.dark #output {
+  background-color: var(--dark-background);
+}
+
+body.dark #copy-button {
+  background-color: var(--dark-background);
+  color: var(--dark-accent);
+}
+
+body.dark select {
+  background-color: var(--dark-background);
+  color: var(--dark-accent);
+}
+
+body.dark option {
+  background-color: var(--dark-background);
+  color: var(--dark-accent);
+}
+
+/*  Batas tema   */
 
 body.light {
-    padding: 5px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #F0F5F9;
-    color: #0047AB;
-}
-
-body.light a {
-    text-decoration: none;
-    color: #00FFE6;
+  background-color: var(--light-background);
+  color: var(--light-accent);
+  border-color: var(--light-accent);
 }
 
 body.light h1 {
-    margin-top: 50px;
-    color: #0047AB;
+  color: var(--light-accent);
 }
 
 body.light #calculator-container {
-    border: 1px solid #0047AB;
-    background-color: #F0F5F9;
+  background-color: var(--light-background);
 }
 
 body.light #input-container input {
-    margin: 5px 0;
-    background-color: #F0F5F9;
-    color: #0047AB;
-    border: 1px solid #0047AB;
+  background-color: var(--light-background);
+  color: var(--light-accent);
+  border-color: var(--light-accent);
 }
 
 body.light #calculate {
-    margin-top: 5px;
-    padding: 5px 10px;
-    background-color: #F0F5F9;
-    color: #0047AB;
-    border: 1px solid #0047AB;
+  background-color: var(--light-background);
+  color: var(--light-accent);
+  border-color: var(--light-accent);
 }
 
 body.light #output {
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
-    border: 1px solid #0047AB;
-    background-color: #F0F5F9;
-    height: 50px;
-    white-space: pre-wrap;
-    text-align: left;
-    color: black;
-    font-family: Courier New;
+  background-color: var(--light-background);
 }
 
 body.light #copy-button {
-    margin: 10px 0 10px 0;
-    padding: 5px 10px;
-    background-color: #F0F5F9;
-    color: #0047AB;
-    border: 1px solid #0047AB;
-    border-radius: 3px;
-    cursor: pointer;
+  background-color: var(--light-background);
+  color: var(--light-accent);
 }
 
 body.light select {
-    background-color: #F0F5F9;
-    color: #0047AB;
-    border: 1px solid #0047AB;
-    border-radius: 3px;
-    padding: 5px;
+  background-color: var(--light-background);
+  color: var(--light-accent);
 }
 
 body.light option {
-    background-color: #F0F5F9;
-    color: #0047AB;
-}
-
-.colored-toast.swal2-icon-success {
-  background-color: #a5dc86 !important;
-}
-
-.colored-toast.swal2-icon-error {
-  background-color: #f27474 !important;
-}
-
-.colored-toast.swal2-icon-warning {
-  background-color: #f8bb86 !important;
-}
-
-.colored-toast.swal2-icon-info {
-  background-color: #3fc3ee !important;
-}
-
-.colored-toast.swal2-icon-question {
-  background-color: #87adbd !important;
-}
-
-.colored-toast .swal2-title {
-  color: white;
-}
-
-.colored-toast .swal2-close {
-  color: white;
-}
-
-.colored-toast .swal2-html-container {
-  color: white;
+  background-color: var(--light-background);
+  color: var(--light-accent);
 }

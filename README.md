@@ -1,11 +1,28 @@
-# Bagaimana cara kerja kalkulator ini?
-<br>
-Caranya sangat sederhana. <br>
-1. Mendapatkan Nilai yang diberikan pengguna. <br>
-2. Mengkalkulasikan Nilai yang diberikan sesuai dengan rumus yang ditentukan. <br>
-3. Merubah Nilai ke Heksadesimal. <br>
-4. Memasukan Nilai Heksadesimal kedalam output.<br>
+# 4Sehat5Sekarat.github.io
 
-# Mengapa Membuat Ini?
-<br>
-Selain Karena waktu senggang. Aku menginginkan membuat custom talisman secara cepat tanpa perlu membuka 3 aplikasi yang berbeda. Dan kebetulan HTML dan JavaScript Adalah jalan keluar yang cocok untuk masalah ini
+Custom talisman calculator for MHP3HD. Built with HTML, CSS, and JavaScript.
+
+## 📦 Features
+
+- Auto calculation
+- Show talisman result
+- Easy copy output
+
+## 💻 Local Preview
+
+```bash
+git clone https://github.com/4Sehat5Sekarat/4Sehat5Sekarat.github.io.git
+cd 4Sehat5Sekarat.github.io
+# then open index.html
+```
+
+## ✅ To-Do
+
+- [ ] Improve UI/UX
+- [ ] Skill name option
+- [ ] Multiple generate
+      etc.. (maybe add some later)
+
+## 🌐 Live Site
+
+[https://4Sehat5Sekarat.github.io](https://4Sehat5Sekarat.github.io)

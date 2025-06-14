@@ -1,0 +1,608 @@
+[
+  {
+    "Skill ID": 0,
+    "Skill Name": {
+      "MHP3HD Patch": "No Skill"
+    }
+  },
+  {
+    "Skill ID": 1,
+    "Skill Name": {
+      "MHP3HD Patch": "Torso Up"
+    }
+  },
+  {
+    "Skill ID": 2,
+    "Skill Name": {
+      "MHP3HD Patch": "Poison"
+    }
+  },
+  {
+    "Skill ID": 3,
+    "Skill Name": {
+      "MHP3HD Patch": "Paralysis"
+    }
+  },
+  {
+    "Skill ID": 4,
+    "Skill Name": {
+      "MHP3HD Patch": "Sleep"
+    }
+  },
+  {
+    "Skill ID": 5,
+    "Skill Name": {
+      "MHP3HD Patch": "Stun"
+    }
+  },
+  {
+    "Skill ID": 6,
+    "Skill Name": {
+      "MHP3HD Patch": "Mud/Snow"
+    }
+  },
+  {
+    "Skill ID": 7,
+    "Skill Name": {
+      "MHP3HD Patch": "Sense"
+    }
+  },
+  {
+    "Skill ID": 8,
+    "Skill Name": {
+      "MHP3HD Patch": "Health"
+    }
+  },
+  {
+    "Skill ID": 9,
+    "Skill Name": {
+      "MHP3HD Patch": "Rec Speed"
+    }
+  },
+  {
+    "Skill ID": 10,
+    "Skill Name": {
+      "MHP3HD Patch": "Sharpness"
+    }
+  },
+  {
+    "Skill ID": 11,
+    "Skill Name": {
+      "MHP3HD Patch": "Artisan"
+    }
+  },
+  {
+    "Skill ID": 12,
+    "Skill Name": {
+      "MHP3HD Patch": "Fencing"
+    }
+  },
+  {
+    "Skill ID": 13,
+    "Skill Name": {
+      "MHP3HD Patch": "Expert"
+    }
+  },
+  {
+    "Skill ID": 14,
+    "Skill Name": {
+      "MHP3HD Patch": "Sharpener"
+    }
+  },
+  {
+    "Skill ID": 15,
+    "Skill Name": {
+      "MHP3HD Patch": "Guard"
+    }
+  },
+  {
+    "Skill ID": 16,
+    "Skill Name": {
+      "MHP3HD Patch": "Guard Up"
+    }
+  },
+  {
+    "Skill ID": 17,
+    "Skill Name": {
+      "MHP3HD Patch": "Auto-Guard"
+    }
+  },
+  {
+    "Skill ID": 18,
+    "Skill Name": {
+      "MHP3HD Patch": "Reload Spd"
+    }
+  },
+  {
+    "Skill ID": 19,
+    "Skill Name": {
+      "MHP3HD Patch": "Recoil"
+    }
+  },
+  {
+    "Skill ID": 20,
+    "Skill Name": {
+      "MHP3HD Patch": "NormalS Up"
+    }
+  },
+  {
+    "Skill ID": 21,
+    "Skill Name": {
+      "MHP3HD Patch": "PierceS Up"
+    }
+  },
+  {
+    "Skill ID": 22,
+    "Skill Name": {
+      "MHP3HD Patch": "PelletS Up"
+    }
+  },
+  {
+    "Skill ID": 23,
+    "Skill Name": {
+      "MHP3HD Patch": "NormalSAdd"
+    }
+  },
+  {
+    "Skill ID": 24,
+    "Skill Name": {
+      "MHP3HD Patch": "PierceSAdd"
+    }
+  },
+  {
+    "Skill ID": 25,
+    "Skill Name": {
+      "MHP3HD Patch": "PelletSAdd"
+    }
+  },
+  {
+    "Skill ID": 26,
+    "Skill Name": {
+      "MHP3HD Patch": "Crag S Add"
+    }
+  },
+  {
+    "Skill ID": 27,
+    "Skill Name": {
+      "MHP3HD Patch": "ClustS Add"
+    }
+  },
+  {
+    "Skill ID": 28,
+    "Skill Name": {
+      "MHP3HD Patch": "Status"
+    }
+  },
+  {
+    "Skill ID": 29,
+    "Skill Name": {
+      "MHP3HD Patch": "Elemental"
+    }
+  },
+  {
+    "Skill ID": 30,
+    "Skill Name": {
+      "MHP3HD Patch": "BombStrUp"
+    }
+  },
+  {
+    "Skill ID": 31,
+    "Skill Name": {
+      "MHP3HD Patch": "Hunger"
+    }
+  },
+  {
+    "Skill ID": 32,
+    "Skill Name": {
+      "MHP3HD Patch": "Gluttony"
+    }
+  },
+  {
+    "Skill ID": 33,
+    "Skill Name": {
+      "MHP3HD Patch": "Attack"
+    }
+  },
+  {
+    "Skill ID": 34,
+    "Skill Name": {
+      "MHP3HD Patch": "Defense"
+    }
+  },
+  {
+    "Skill ID": 35,
+    "Skill Name": {
+      "MHP3HD Patch": "Protection"
+    }
+  },
+  {
+    "Skill ID": 36,
+    "Skill Name": {
+      "MHP3HD Patch": "HearProtct"
+    }
+  },
+  {
+    "Skill ID": 37,
+    "Skill Name": {
+      "MHP3HD Patch": "Anti-Theft"
+    }
+  },
+  {
+    "Skill ID": 38,
+    "Skill Name": {
+      "MHP3HD Patch": "Wide Area"
+    }
+  },
+  {
+    "Skill ID": 39,
+    "Skill Name": {
+      "MHP3HD Patch": "Backpackng"
+    }
+  },
+  {
+    "Skill ID": 40,
+    "Skill Name": {
+      "MHP3HD Patch": "Fire Res"
+    }
+  },
+  {
+    "Skill ID": 41,
+    "Skill Name": {
+      "MHP3HD Patch": "Water Res"
+    }
+  },
+  {
+    "Skill ID": 42,
+    "Skill Name": {
+      "MHP3HD Patch": "ThunderRes"
+    }
+  },
+  {
+    "Skill ID": 43,
+    "Skill Name": {
+      "MHP3HD Patch": "Ice Res"
+    }
+  },
+  {
+    "Skill ID": 44,
+    "Skill Name": {
+      "MHP3HD Patch": "Dragon Res"
+    }
+  },
+  {
+    "Skill ID": 45,
+    "Skill Name": {
+      "MHP3HD Patch": "Heat Res"
+    }
+  },
+  {
+    "Skill ID": 46,
+    "Skill Name": {
+      "MHP3HD Patch": "Cold Res"
+    }
+  },
+  {
+    "Skill ID": 47,
+    "Skill Name": {
+      "MHP3HD Patch": "WindPress"
+    }
+  },
+  {
+    "Skill ID": 48,
+    "Skill Name": {
+      "MHP3HD Patch": "Gathering"
+    }
+  },
+  {
+    "Skill ID": 49,
+    "Skill Name": {
+      "MHP3HD Patch": "HiSpdGathr"
+    }
+  },
+  {
+    "Skill ID": 50,
+    "Skill Name": {
+      "MHP3HD Patch": "Whim"
+    }
+  },
+  {
+    "Skill ID": 51,
+    "Skill Name": {
+      "MHP3HD Patch": "Fate"
+    }
+  },
+  {
+    "Skill ID": 52,
+    "Skill Name": {
+      "MHP3HD Patch": "Psychic"
+    }
+  },
+  {
+    "Skill ID": 53,
+    "Skill Name": {
+      "MHP3HD Patch": "Rec Level"
+    }
+  },
+  {
+    "Skill ID": 54,
+    "Skill Name": {
+      "MHP3HD Patch": "Combo Rate"
+    }
+  },
+  {
+    "Skill ID": 55,
+    "Skill Name": {
+      "MHP3HD Patch": "Combo Plus (Shot Mix)"
+    }
+  },
+  {
+    "Skill ID": 56,
+    "Skill Name": {
+      "MHP3HD Patch": "Evasion"
+    }
+  },
+  {
+    "Skill ID": 57,
+    "Skill Name": {
+      "MHP3HD Patch": "Potential"
+    }
+  },
+  {
+    "Skill ID": 58,
+    "Skill Name": {
+      "MHP3HD Patch": "LastingPwr"
+    }
+  },
+  {
+    "Skill ID": 59,
+    "Skill Name": {
+      "MHP3HD Patch": "Stamina"
+    }
+  },
+  {
+    "Skill ID": 60,
+    "Skill Name": {
+      "MHP3HD Patch": "Loading"
+    }
+  },
+  {
+    "Skill ID": 61,
+    "Skill Name": {
+      "MHP3HD Patch": "Precision"
+    }
+  },
+  {
+    "Skill ID": 62,
+    "Skill Name": {
+      "MHP3HD Patch": "Eating"
+    }
+  },
+  {
+    "Skill ID": 63,
+    "Skill Name": {
+      "MHP3HD Patch": "Carving"
+    }
+  },
+  {
+    "Skill ID": 64,
+    "Skill Name": {
+      "MHP3HD Patch": "Tremor Res (Quake Res)"
+    }
+  },
+  {
+    "Skill ID": 65,
+    "Skill Name": {
+      "MHP3HD Patch": "Evade Dist"
+    }
+  },
+  {
+    "Skill ID": 66,
+    "Skill Name": {
+      "MHP3HD Patch": "Crit Draw"
+    }
+  },
+  {
+    "Skill ID": 67,
+    "Skill Name": {
+      "MHP3HD Patch": "SpeedSetup"
+    }
+  },
+  {
+    "Skill ID": 68,
+    "Skill Name": {
+      "MHP3HD Patch": "Constitutn"
+    }
+  },
+  {
+    "Skill ID": 69,
+    "Skill Name": {
+      "MHP3HD Patch": "Tranquilzer (Rewards)"
+    }
+  },
+  {
+    "Skill ID": 70,
+    "Skill Name": {
+      "MHP3HD Patch": "Perception"
+    }
+  },
+  {
+    "Skill ID": 71,
+    "Skill Name": {
+      "MHP3HD Patch": "FastCharge"
+    }
+  },
+  {
+    "Skill ID": 72,
+    "Skill Name": {
+      "MHP3HD Patch": "PunishDraw"
+    }
+  },
+  {
+    "Skill ID": 73,
+    "Skill Name": {
+      "MHP3HD Patch": "Blight Res"
+    }
+  },
+  {
+    "Skill ID": 74,
+    "Skill Name": {
+      "MHP3HD Patch": "Survivor (Adversity)"
+    }
+  },
+  {
+    "Skill ID": 75,
+    "Skill Name": {
+      "MHP3HD Patch": "Rapid Fire"
+    }
+  },
+  {
+    "Skill ID": 76,
+    "Skill Name": {
+      "MHP3HD Patch": "Dungmaster"
+    }
+  },
+  {
+    "Skill ID": 77,
+    "Skill Name": {
+      "MHP3HD Patch": "Antiseptic"
+    }
+  },
+  {
+    "Skill ID": 78,
+    "Skill Name": {
+      "MHP3HD Patch": "PoisonCAdd"
+    }
+  },
+  {
+    "Skill ID": 79,
+    "Skill Name": {
+      "MHP3HD Patch": "ParalyCAdd"
+    }
+  },
+  {
+    "Skill ID": 80,
+    "Skill Name": {
+      "MHP3HD Patch": "SleepCAdd"
+    }
+  },
+  {
+    "Skill ID": 81,
+    "Skill Name": {
+      "MHP3HD Patch": "PowerCAdd"
+    }
+  },
+  {
+    "Skill ID": 82,
+    "Skill Name": {
+      "MHP3HD Patch": "ClsRngCAdd"
+    }
+  },
+  {
+    "Skill ID": 83,
+    "Skill Name": {
+      "MHP3HD Patch": "Horn"
+    }
+  },
+  {
+    "Skill ID": 84,
+    "Skill Name": {
+      "MHP3HD Patch": "Gunnery"
+    }
+  },
+  {
+    "Skill ID": 85,
+    "Skill Name": {
+      "MHP3HD Patch": "Determination (Awaken / Gloves Off)"
+    }
+  },
+  {
+    "Skill ID": 86,
+    "Skill Name": {
+      "MHP3HD Patch": "Huntsman"
+    }
+  },
+  {
+    "Skill ID": 87,
+    "Skill Name": {
+      "MHP3HD Patch": "Anti Defense DOWN (Fortitude)"
+    }
+  },
+  {
+    "Skill ID": 88,
+    "Skill Name": {
+      "MHP3HD Patch": "Fire Attack"
+    }
+  },
+  {
+    "Skill ID": 89,
+    "Skill Name": {
+      "MHP3HD Patch": "Water Attack"
+    }
+  },
+  {
+    "Skill ID": 90,
+    "Skill Name": {
+      "MHP3HD Patch": "Thunder Attack"
+    }
+  },
+  {
+    "Skill ID": 91,
+    "Skill Name": {
+      "MHP3HD Patch": "Ice Attack"
+    }
+  },
+  {
+    "Skill ID": 92,
+    "Skill Name": {
+      "MHP3HD Patch": "Dragon Attack"
+    }
+  },
+  {
+    "Skill ID": 93,
+    "Skill Name": {
+      "MHP3HD Patch": "Cutter S Up"
+    }
+  },
+  {
+    "Skill ID": 94,
+    "Skill Name": {
+      "MHP3HD Patch": "FatigueCAdd"
+    }
+  },
+  {
+    "Skill ID": 95,
+    "Skill Name": {
+      "MHP3HD Patch": "Weakness exploit (Debilitate / Tenderizer)"
+    }
+  },
+  {
+    "Skill ID": 96,
+    "Skill Name": {
+      "MHP3HD Patch": "Heavy Blow (Slam / Destroyer)"
+    }
+  },
+  {
+    "Skill ID": 97,
+    "Skill Name": {
+      "MHP3HD Patch": "KO"
+    }
+  },
+  {
+    "Skill ID": 98,
+    "Skill Name": {
+      "MHP3HD Patch": "Fatigue Attack"
+    }
+  },
+  {
+    "Skill ID": 99,
+    "Skill Name": {
+      "MHP3HD Patch": "Sheathe"
+    }
+  },
+  {
+    "Skill ID": 100,
+    "Skill Name": {
+      "MHP3HD Patch": "Willpower Recovery"
+    }
+  }
+]

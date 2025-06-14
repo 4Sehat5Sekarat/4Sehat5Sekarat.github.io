@@ -1,106 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content="300" />
     <meta name="keywords" content="Test" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="author" content="5W1H">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="author" content="5W1H" />
     <title>MHP3RDHD Custom Talisman</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
-<body>
-
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
     <div id="calculator-container">
-        <h1 class="animate__animated animate__bounce">Custom Talisman</h1>
-        <div id="input-container">
-            <select id="5w1h-first-skill-id"><option value="0">Opsi skill 1</option></select>
-            <select id="5w1h-second-skill-id"><option value="0">Opsi skill 2</option></select> <br />
+      <h1>Custom Talisman</h1>
+      <div id="input-container">
+        <select id="5w1h-first-skill-id" class="skillPicker">
+          <option value="0">Opsi skill 1</option>
+        </select>
+        <select id="5w1h-second-skill-id" class="skillPicker">
+          <option value="0">Opsi skill 2</option>
+        </select>
+        <br />
 
-            <input type="number" id="5w1h-first-skill-lvl" placeholder="Level Skill 1" />
-            <input type="number" id="5w1h-second-skill-lvl" placeholder="Level Skill 2" /> <br />
+        <input
+          type="number"
+          id="5w1h-first-skill-lvl"
+          placeholder="Level Skill 1"
+        />
+        <input
+          type="number"
+          id="5w1h-second-skill-lvl"
+          placeholder="Level Skill 2"
+        />
+        <br />
 
-            <select id="5w1h-talisman-rarity">
-                <option value="1" id="5w1h-talisman-rarity1">Pawn Talisman [RARE 1]</option>
-                <option value="2" id="5w1h-talisman-rarity2">Bishop Talisman [RARE 2]</option>
-                <option value="3" id="5w1h-talisman-rarity3">Knight Talisman [RARE 3]</option>
-                <option value="4" id="5w1h-talisman-rarity4">Rook Talisman [RARE 4]</option>
-                <option value="5" id="5w1h-talisman-rarity5">Queen Talisman [RARE 5]</option>
-                <option value="6" id="5w1h-talisman-rarity6">King Talisman [RARE 6]</option>
-                <option value="7" id="5w1h-talisman-rarity7">Dragon Talisman [RARE 7]</option>
-            </select>
-            <select id="5w1h-number-of-slots">
-                <option value="0">Number of slots ---</option>
-                <option value="1">Number of slots &#9675;--</option>
-                <option value="2">Number of slots &#9675;&#9675;-</option>
-                <option value="3">Number of slots &#9675;&#9675;&#9675;</option>
-            </select><br />
-            <select id="5w1h-box-slot">
-                <option value="1">Box Slot 1</option>
-                <option value="2">Box Slot 2</option>
-                <option value="3">Box Slot 3</option>
-                <option value="4">Box Slot 4</option>
-                <option value="5">Box Slot 5</option>
-                <option value="6">Box Slot 6</option>
-                <option value="7">Box Slot 7</option>
-                <option value="8">Box Slot 8</option>
-                <option value="9">Box Slot 9</option>
-                <option value="10">Box Slot 10</option>
-                <option value="11">Box Slot 11</option>
-                <option value="12">Box Slot 12</option>
-                <option value="13">Box Slot 13</option>
-                <option value="14">Box Slot 14</option>
-                <option value="15">Box Slot 15</option>
-                <option value="16">Box Slot 16</option>
-                <option value="17">Box Slot 17</option>
-                <option value="18">Box Slot 18</option>
-                <option value="19">Box Slot 19</option>
-                <option value="20">Box Slot 20</option>
-                <option value="21">Box Slot 21</option>
-                <option value="22">Box Slot 22</option>
-                <option value="23">Box Slot 23</option>
-                <option value="24">Box Slot 24</option>
-                <option value="25">Box Slot 25</option>
-                <option value="26">Box Slot 26</option>
-                <option value="27">Box Slot 27</option>
-                <option value="28">Box Slot 28</option>
-                <option value="29">Box Slot 29</option>
-                <option value="30">Box Slot 30</option>
-                <option value="31">Box Slot 31</option>
-                <option value="32">Box Slot 32</option>
-                <option value="33">Box Slot 33</option>
-                <option value="34">Box Slot 34</option>
-                <option value="35">Box Slot 35</option>
-                <option value="36">Box Slot 36</option>
-                <option value="37">Box Slot 37</option>
-                <option value="38">Box Slot 38</option>
-                <option value="39">Box Slot 39</option>
-                <option value="40">Box Slot 40</option>
-            </select>
+        <select id="5w1h-talisman-rarity">
+          <option value="1" id="5w1h-talisman-rarity1">
+            Pawn Talisman [RARE 1]
+          </option>
+          <option value="2" id="5w1h-talisman-rarity2">
+            Bishop Talisman [RARE 2]
+          </option>
+          <option value="3" id="5w1h-talisman-rarity3">
+            Knight Talisman [RARE 3]
+          </option>
+          <option value="4" id="5w1h-talisman-rarity4">
+            Rook Talisman [RARE 4]
+          </option>
+          <option value="5" id="5w1h-talisman-rarity5">
+            Queen Talisman [RARE 5]
+          </option>
+          <option value="6" id="5w1h-talisman-rarity6">
+            King Talisman [RARE 6]
+          </option>
+          <option value="7" id="5w1h-talisman-rarity7">
+            Dragon Talisman [RARE 7]
+          </option>
+        </select>
+        <select id="5w1h-number-of-slots">
+          <option value="0">Number of slots ---</option>
+          <option value="1">Number of slots &#9675;--</option>
+          <option value="2">Number of slots &#9675;&#9675;-</option>
+          <option value="3">
+            Number of slots &#9675;&#9675;&#9675;
+          </option></select
+        ><br />
+        <select id="5w1h-box-slot">
+          <option value="1">Box Slot 1</option>
+          <option value="2">Box Slot 2</option>
+          <option value="3">Box Slot 3</option>
+          <option value="4">Box Slot 4</option>
+          <option value="5">Box Slot 5</option>
+          <option value="6">Box Slot 6</option>
+          <option value="7">Box Slot 7</option>
+          <option value="8">Box Slot 8</option>
+          <option value="9">Box Slot 9</option>
+          <option value="10">Box Slot 10</option>
+          <option value="11">Box Slot 11</option>
+          <option value="12">Box Slot 12</option>
+          <option value="13">Box Slot 13</option>
+          <option value="14">Box Slot 14</option>
+          <option value="15">Box Slot 15</option>
+          <option value="16">Box Slot 16</option>
+          <option value="17">Box Slot 17</option>
+          <option value="18">Box Slot 18</option>
+          <option value="19">Box Slot 19</option>
+          <option value="20">Box Slot 20</option>
+          <option value="21">Box Slot 21</option>
+          <option value="22">Box Slot 22</option>
+          <option value="23">Box Slot 23</option>
+          <option value="24">Box Slot 24</option>
+          <option value="25">Box Slot 25</option>
+          <option value="26">Box Slot 26</option>
+          <option value="27">Box Slot 27</option>
+          <option value="28">Box Slot 28</option>
+          <option value="29">Box Slot 29</option>
+          <option value="30">Box Slot 30</option>
+          <option value="31">Box Slot 31</option>
+          <option value="32">Box Slot 32</option>
+          <option value="33">Box Slot 33</option>
+          <option value="34">Box Slot 34</option>
+          <option value="35">Box Slot 35</option>
+          <option value="36">Box Slot 36</option>
+          <option value="37">Box Slot 37</option>
+          <option value="38">Box Slot 38</option>
+          <option value="39">Box Slot 39</option>
+          <option value="40">Box Slot 40</option>
+        </select>
 
-            <button id="calculate">Konversi</button>
-
-        </div>
-
-        <div id="output"></div>
-
-        <button id="copy-button">Copy</button>
+        <button id="calculate">Konversi</button>
+      </div>
+      <div id="output"></div>
+      <button id="copy-button">Copy</button>
+    </div>
+    <div style="padding: 10px; text-align: left">
+      <button id="theme-button">Tema</button>
+      <br />
+      <details>
+        <summary>Some Message</summary>
+        Hi, it's been a while since I've developed this. For now I've made some
+        changes and removed external links except for the ones below this text
+        of course (my own link).
+        <br />
+        it turns out my code is really messy, and I spent a lot of time fixing
+        and improving it.
+        <br />
+        <br />
+        <a href="https://www.mediafire.com/file/bl6kg5ulan81oyx/cheat.db/file"
+          >Free Cheat.db that i found</a
+        >
+      </details>
     </div>
 
-    <div style="padding: 10px; text-align: left;">
-        <button class="theme-button" onclick="changeTheme()">Tema</button><br /><br />
-        <details><summary>
-            Source calculation
-        </summary>
-            <a href="http://https://forums.ppsspp.org/showthread.php?tid=23448&page=5">https://forums.ppsspp.org/showthread.php?tid=23448&page=5</a>
-            <br />I made this because I'm bored doing nothing and also because I'm lazy to calculate <br />
-            And that toast i found from YT and i just want to try it nothing more<br />
-            <a href="https://www.mediafire.com/file/bl6kg5ulan81oyx/cheat.db/file">Free Cheat.db that i found</a> because you open this</details>
-    </div>
+    <script src="skillOptions.js"></script>
+    <script src="scriptMain.js"></script>
+    <script>
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.body.classList.add("dark");
+      } else {
+        document.body.classList.add("light");
+      }
 
-    <script src="SkillOptions.js"></script>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
+      document.querySelectorAll("input, select, textarea").forEach((el) => {
+        el.addEventListener("input", calculateValues);
+      });
+    </script>
+  </body>
 </html>
